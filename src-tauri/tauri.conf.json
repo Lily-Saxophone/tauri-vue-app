@@ -11,19 +11,17 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
+      "window": {
+        "all": true
       }
     },
     "windows": [
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-vue-app",
-        "width": 800,
-        "height": 600
+        "title": "縦書きエディタ",
+        "width": 1091,
+        "height": 788
       }
     ],
     "security": {
